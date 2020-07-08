@@ -22,8 +22,7 @@
   left: 0;
   width: 100%;
   background-color: #fff;
-  -webkit-transition: height 0.4s ease, background-color 0.4s ease,
-    opacity 0.3s ease;
+  -webkit-transition: height 0.4s ease, background-color 0.4s ease, opacity 0.3s ease;
   -o-transition: height 0.4s ease, background-color 0.4s ease, opacity 0.3s ease;
   transition: height 0.4s ease, background-color 0.4s ease, opacity 0.3s ease;
 }
@@ -76,11 +75,15 @@
 #header,
 #header-wrap,
 #logo img {
-  height: 60px;
-  padding: 10px 0;
+  height: 70px;
+  padding: 5px 0 5px 0;
   -webkit-transition: height 0.4s ease, opacity 0.3s ease;
   -o-transition: height 0.4s ease, opacity 0.3s ease;
   transition: height 0.4s ease, opacity 0.3s ease;
+}
+
+#header-wrap {
+  height: 80px;
 }
 
 /* Sticky Header
@@ -144,9 +147,7 @@ body.side-panel-left.side-push-panel.stretched #header .container {
   right: auto;
 }
 
-body.side-panel-left.side-push-panel.side-panel-open.stretched
-  #header
-  .container {
+body.side-panel-left.side-push-panel.side-panel-open.stretched #header .container {
   left: 300px;
 }
 
